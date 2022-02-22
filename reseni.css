@@ -2,8 +2,17 @@
 	Zde prosím slovně popiš v několika málo větách svoje uvažování.
 	Proč a jak navrhuješ řešit dané problémy?
 
-	...
-
+	##Zmiňované problémy můžeme řešit několika způsoby: 
+	#hlavička:
+		1) posunutím breakpointu pro desktop
+		2) zmenšením bočního marginu hlavičky, aby se tam lépe vešly položky menu
+		3) zmenšením loga a mírným zmenšením textu 
+		4) zalamováním textu - vyřešení pozicování flex-boxem
+	#přetékání boxů:
+		1) vyvarování se definování přesné šířky, ale spíše použít max-width a min-width
+		2) zúžení prvního sloupce boxu ukazující datum a místo konání
+		3) posunutí breakpointu pro desktop a použít zobrazení boxů pro menší zařízení
+		4) přesunutí filtru nad boxy (viz složka design-proposal)
 */
 
 /* ↓ Sem napiš kód svého řešení ↓ */
