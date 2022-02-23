@@ -37,11 +37,14 @@
   }
 }
 
-@media (min-width: 1154px) {
+@media (min-width: 1079px) {
   .navbar .container {
     max-width: 80%;
     display: block;
   }
+}
+
+@media (min-width: 1154px) {
   .kalendar .container {
     max-width: 80%;
     padding: 0;
