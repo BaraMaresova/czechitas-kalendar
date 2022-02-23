@@ -5,7 +5,7 @@
 	##Zmiňované problémy můžeme řešit několika způsoby: 
 	#hlavička:
 		1) posunutím breakpointu pro desktop
-		2) zmenšením bočního marginu hlavičky, aby se tam lépe vešly položky menu
+		2) zmenšením bočního marginu hlavičky, aby se tam lépe vešly položky menu nebo zvětšení max-width
 		3) zmenšením loga a mírným zmenšením textu 
 		4) zalamováním textu - vyřešení pozicování flex-boxem
 	#přetékání boxů:
@@ -16,3 +16,50 @@
 */
 
 /* ↓ Sem napiš kód svého řešení ↓ */
+
+@media (min-width: 992px) {
+  .navbar .container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .kalendar .container {
+    max-width: 100%;
+    padding: 0 30px;
+  }
+  .all-events-list .collection-item {
+    padding: 30px 190px 0px 250px;
+  }
+  .all-events-list .event-date-block {
+    width: 230px;
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: 1154px) {
+  .navbar .container {
+    max-width: 80%;
+    display: block;
+  }
+  .kalendar .container {
+    max-width: 80%;
+    padding: 0;
+  }
+  .all-events-list .collection-item {
+    padding: 30px 190px 0px 280px;
+  }
+  .all-events-list .event-date-block {
+    width: 260px;
+    padding-left: 50px;
+  }
+}
+
+@media (min-width: 1548) {
+  .all-events-list .collection-item {
+    padding: 30px 170px 0px 350px;
+  }
+  .all-events-list .event-date-block {
+    width: 320px;
+  }
+}
