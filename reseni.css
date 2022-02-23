@@ -13,6 +13,9 @@
 		2) zúžení prvního sloupce boxu ukazující datum a místo konání
 		3) posunutí breakpointu pro desktop a použít zobrazení boxů pro menší zařízení
 		4) přesunutí filtru nad boxy (viz složka design-proposal)
+
+
+    Pro opravu hlavičky jsem nakonec zvolila variantu 2 - tedy rozšíření hlavičky a napozicování navigace vůči logu flex-boxem. Opravu boxů jsem vyřešila variantou 2, rozšířením containeru a opravou paddingů. Pro tyto možnosti jsem se rozhodla z toho důvodu, že mi přišlo řešení rychlé a hlavně efektivní. Chtěla jsem zároveň co nejvíce ctít design kalendáře a nepouštět se do divokých předělávek.
 */
 
 /* ↓ Sem napiš kód svého řešení ↓ */
